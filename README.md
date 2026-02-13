@@ -6,6 +6,31 @@ Hi! I'm Ejikeme Stanley a Full stack Web Development and cybersecurity Enthusias
  Tech: HTML, CSS, JavaScript
  Folder: `Web-development/auth-portfolio-demo`
  Live Demo: [click to preview](https://iphyboi.github.io/auth-portfolio-demo/)
+ 2. Backend Login Application
+ Description: A Node.js authentication system built during my backend learning phase.
+ FEATURES
+ - User registration
+ - Login and Logout
+ - Password Hashing using bcrypt
+ - MomgoDB Database Integration
+ Environment variable protection using dotenv
+ - Protected  Dashboard Routes
+ TECHNOLOGIES USED
+ - Node.js
+ - Express
+ - Express-session
+ - JSON file storage (initial version)
+ - File based or database storage
+ - Mongoose
+ - MongoDB
+ - bcrypt
+ - dotenv
+ PROJECT STRUCTURE
+ - `app.js` - Main server file
+- `db.js` - Database connection logic
+- `Models/User.js` - user schema and model
+- `Views/` - Frontend templates
+- `.gitignore` - Prevents sensitive data from being pushed
 
 
 
