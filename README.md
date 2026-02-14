@@ -46,7 +46,22 @@ Hi! I'm Ejikeme Stanley a Full stack Web Development and cybersecurity Enthusias
  - Update task (PUT)
  - Delete task (DELETE)
  
- All functionality was tested using REST Client in VS Code.    
+ All functionality was tested using REST Client in VS Code. 
+
+ 4. PRODUCTIVITY DASHBOARD
+ Minimal professional task manager dashboard built with HTML, CSS and JavaScript.Tasks persist using LocalStorage and can be marked complete,delete or added dynamically.
+
+ FEATURES
+
+ - Add, complete, delete tasks
+ - Summary cards for total/completed/pendind
+ - Dark mode toggle
+ - Responsive, minimal design   
+
+
+
+
+
 
 
 
