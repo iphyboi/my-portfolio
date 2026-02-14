@@ -32,6 +32,16 @@ Hi! I'm Ejikeme Stanley a Full stack Web Development and cybersecurity Enthusias
 - `Views/` - Frontend templates
 - `.gitignore` - Prevents sensitive data from being pushed
 
+     BACKEND CRUD PROJECT
+ Folder: `web-development/task-manager-api`
+ This project demonstrate a full CRUD workflow using Node.js, Express, and MongoDB.
+ FEATURES
+ - Create task (POST)
+ - Read task (GET)
+ - Update task (PUT)
+ - Delete task (DELETE)
+ All functionality was tested using REST Client in VS Code.    
+
 
 
           Cybersecurity Projects
