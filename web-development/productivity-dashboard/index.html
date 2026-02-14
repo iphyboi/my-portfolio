@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productivity Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <h2>Dashboard</h2>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Tasks</li>
+                <li>Projects</li>
+                <li>Settings</li>
+            </ul>
+        </nav>
+    </aside>
+    <main class="main-content">
+        <header class="header">
+            <h1>Welcome</h1>
+            <button id="toggle-dark">Dark Mode</button>
+        </header>
+        <section class="cards">
+            <div class="card">Total Tasks: <span id="total-tasks">0</span></div>
+            <div class="card">Completed: <span id="completed-tasks">0</span></div>
+            <div class="card">Pending: <span id="pending-tasks">0</span></div>
+        </section>
+
+        <section class="tasks">
+            <h2>My Tasks</h2>
+            <form id="task-form">
+                <input type="text" id="task-input" placeholder="New task" required>
+                <button type="submit">Add Task</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
